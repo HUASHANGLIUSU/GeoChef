@@ -1,14 +1,13 @@
 from openai import OpenAI
 import streamlit as st
 
-# ===================== 配置你的 autodl 大模型 =====================
+
 CLIENT = OpenAI(
     base_url="https://www.autodl.art/api/v1",
-    api_key="0",  # 替换成你的真实 API Key
+    api_key=st.secrets["OPENAI_API_KEY"],  
 )
 
 
-# ==================================================================
 
 def get_paper_explain_prompt(link, dataset_name):
     """生成专业的遥感论文讲解提示词"""
