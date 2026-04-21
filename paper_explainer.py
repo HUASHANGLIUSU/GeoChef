@@ -4,7 +4,7 @@ import streamlit as st
 # ===================== 配置你的 autodl 大模型 =====================
 CLIENT = OpenAI(
     base_url="https://www.autodl.art/api/v1",
-    api_key="LkmOfOQEacf5udaCcKsg7kSR3UIUrqqymOWRSdgvAyRnAQKx",  # 替换成你的真实 API Key
+    api_key="0",  # 替换成你的真实 API Key
 )
 
 
