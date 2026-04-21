@@ -3,7 +3,7 @@ import requests
 # ====================== 你的学校大模型配置 ======================
 API_URL = "https://chat.ecnu.edu.cn/open/api/v1/chat/completions"
 API_KEY = "sk-738ab18445e946f6b3fe3751cd62d7d6"
-MODEL_NAME = "ecnu-plus"
+MODEL_NAME = "ecnu-max"
 
 
 class ECNUModel:
