@@ -1,8 +1,8 @@
 import requests
-
+import streamlit as st
 # ====================== 你的学校大模型配置 ======================
 API_URL = "https://chat.ecnu.edu.cn/open/api/v1/chat/completions"
-API_KEY = "sk-738ab18445e946f6b3fe3751cd62d7d6"
+API_KEY = st.secrets["CHATECNU_API_KEY"]
 MODEL_NAME = "ecnu-max"
 
 
